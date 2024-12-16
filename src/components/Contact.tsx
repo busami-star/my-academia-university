@@ -34,7 +34,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="my-[80px] mx-auto max-w-[90%] flex items-center justify-between">
+        <div id="contact" className="my-[80px] mx-auto max-w-[90%] flex items-center justify-between">
             <div className="basis-[48%]">
                 <h3 className="font-bold flex items-center mb-[20px] text-[25px]">Send us a message <img className="w-[40px] ml-[10px]" src={msg_icon} alt="" /> </h3>
                 <p className="max-w-[450px] leading-5">

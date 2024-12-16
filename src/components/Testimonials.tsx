@@ -8,7 +8,7 @@ import user_4 from '../assets/user-4.png'
 const Testimonials = () => {
 
     return (
-        <div className="my-[80px]  py-0 flex items-center mx-20 px-[80px] relative">
+        <div id="testimonial" className="my-[80px]  py-0 flex items-center mx-20 px-[80px] relative">
             <img className="absolute top-[50%] right-0 translate-y-[-50%] bg-red-950 p-[15px] w-[50px] rounded-[50%] cursor-pointer" src={next_icon} alt=""/>
             <img className="right-auto left-0 bg-red-950  absolute  p-[15px] w-[50px] rounded-[50%] cursor-pointer" src={back_icon} alt=""/>
             <div className="overflow-hidden">

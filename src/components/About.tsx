@@ -3,7 +3,7 @@ import about from "../assets/about.png";
 import play_icon from "../assets/play-icon.png";
 const About = () => {
     return (
-        <div className="my-[100px] mx-auto flex items-center relative justify-between w-[90%]">
+        <div id="about" className="my-[100px] mx-auto flex items-center relative justify-between w-[90%]">
             <div className="basis-[40%]">
                 <img className="w-[100%] rounded-[10px]" src={about} alt=""/>
                 <img className="w-[60px] absolute top-[46%] transform left-[17%]" src={play_icon} alt=""/>

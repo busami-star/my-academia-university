@@ -6,6 +6,7 @@ import About from "./components/About.tsx";
 import Campus from "./components/Campus.tsx";
 import Testimonials from "./components/Testimonials.tsx";
 import Contact from "./components/Contact.tsx";
+import Footer from "./components/Footer.tsx"
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
             <Testimonials />
             <Title subTitle="Contact us" title="Get in touch"/>
             <Contact />
+            <Footer />
 
         </>
     )

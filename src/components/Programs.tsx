@@ -7,7 +7,7 @@ import program_icon_3 from "../assets/program-icon-3.png"
 
 const Programs = () => {
     return (
-        <div className="my-[80px] mx-auto w-[70%]  flex items-center space-x-6 justify-between ">
+        <div id="programs" className="my-[80px] mx-auto w-[70%]  flex items-center space-x-6 justify-between ">
             <div className="relative">
                 <img className="w-[100%] rounded-[10px] block" src={program_1} alt=""/>
                 <div className="rounded-3xl opacity-0  hover:opacity-100 cursor-pointer">
